@@ -6,7 +6,7 @@ const moment = require("moment");
 const ms = require("ms");
 const wait = require('util').promisify(setTimeout);
 client.on('ready', () => {
-var x = client.channels.get("566244121551831070");
+var x = client.channels.get("576859129310609420");
 if (x) x.join();
 });
 
